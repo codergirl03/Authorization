@@ -37,13 +37,13 @@ div{
 }
 
 form{
-    width: 500px;
+    width: 400px;
     box-shadow: 0 0 15px 2px rgb(136, 109, 109) ;
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
-    margin-bottom: 170px;
+    margin-bottom: 140px;
     display: grid;
     background-color: rgb(48, 43, 36);
     border-radius: 7px;
