@@ -1,0 +1,83 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+body{
+    background-image: url(../img/mountains-clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back{
+    background-color: black;
+    opacity: 0.7;
+    height: 99vh;
+}
+div button{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(94, 129, 235);   
+    padding: 15px;
+}
+div button a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+div{
+    margin-top: 5px;
+    justify-content: space-around;
+    display: flex;
+}
+
+form{
+    width: 400px;
+    box-shadow: 0 0 15px 2px rgb(136, 109, 109) ;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 170px;
+    display: grid;
+    background-color: rgb(48, 43, 36);
+    border-radius: 7px;
+}
+h1{
+    text-align: center;
+    color: royalblue;
+    margin-bottom: 5px;
+}
+input{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+input:last-child{
+    margin-bottom: 0;
+}
+input[type= submit]{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+h4{
+    margin-top: 5px;
+    color: rgb(95, 89, 89);
+    text-align: center;
+}
+span{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+span a{
+    color: white;
+    font-size: 17px;
+}
